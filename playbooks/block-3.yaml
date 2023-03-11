@@ -1,6 +1,6 @@
 ---
  - name: This playbook provides an example of block + rescue
-   hosts: webservers
+   hosts: all
    gather_facts: True
 
    tasks:

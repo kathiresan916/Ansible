@@ -1,6 +1,6 @@
 ---
  - name: This playbook will invoke the Ansible role
-   hosts: webservers
+   hosts: all
    gather_facts: True
    roles:
      - apache
